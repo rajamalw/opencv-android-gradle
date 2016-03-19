@@ -12,7 +12,7 @@ Usage
 --------
 1.Copy the __opencv-android.jar__ to __app->libs__ in your project.
 
-2.Open build.gradle add the following line to the dependencies block.
+2.Open build.gradle and add the following line to the dependencies block.
 ```
 compile files('libs/opencv-android.jar')
 ```
