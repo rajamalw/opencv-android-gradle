@@ -25,13 +25,13 @@ To Build JAR in Linux
 ```
 sdk.dir=/home/rajamalw/android-sdk-linux
 ```
-Here __/home/rajamalw/android-sdk-linux__ is my SDK path. Replace with your SDK path.
+Replace __/home/rajamalw/android-sdk-linux__ with your SDK path.
 
 2.Export Gradle path. For example in Ubuntu.
 ```shell
 export PATH="/home/rajamalw/gradle/gradle-2.10/bin:$PATH"
 ```
-where __/home/rajamalw/gradle/gradle-2.10/bin__ is the path where my Gradle executable is present.
+Replace __/home/rajamalw/gradle/gradle-2.10/bin__ with your Gradle path.
 
 3.Use the following Commands to generate JAR.
 ```
