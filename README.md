@@ -1,6 +1,23 @@
 # opencv-android-gradle
 OpenCV Android SDK modified to use in Android Studio
 
+OpenCV SDK Version
+-------
+3.1.0
+Download JAR
+--------
+[JAR][1]
+
+Usage
+--------
+1.Copy the __opencv-android.jar__ to __app->libs__ in your project.
+
+2.Open build.gradle add the following line to the dependencies block.
+```
+compile files('libs/opencv-android.jar')
+```
+3.Sync the project.
+
 To Build JAR in Linux
 --------
 1.Create a __local.properties__ file and define Android SDK path.
@@ -23,12 +40,6 @@ gradle jar
 ```
 4.The JAR will be generated in __build/libs__. 
 
-Usage
-----
-1.Copy the __opencv-android.jar__ to __app->libs__ in your project.
 
-2.Open build.gradle add the following line to the dependencies block.
-```
-compile files('libs/opencv-android.jar')
-```
-3.Sync the project.
+
+[1]:https://github.com/rajamalw/opencv-android-gradle/raw/master/jar/opencv-android.jar
