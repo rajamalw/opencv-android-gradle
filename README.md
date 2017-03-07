@@ -3,7 +3,7 @@ OpenCV Android SDK modified to use in Android Studio
 
 OpenCV SDK Version
 -------
-3.1.0
+3.2.0
 Download JAR
 --------
 [JAR][1]
@@ -29,9 +29,9 @@ Replace __/home/rajamalw/android-sdk-linux__ with your SDK path.
 
 2.Export Gradle path. For example in Ubuntu.
 ```shell
-export PATH="/home/rajamalw/gradle/gradle-2.10/bin:$PATH"
+export PATH="/home/rajamalw/gradle/gradle-3.3/bin:$PATH"
 ```
-Replace __/home/rajamalw/gradle/gradle-2.10/bin__ with your Gradle path.
+Replace __/home/rajamalw/gradle/gradle-3.3/bin__ with your Gradle path.
 
 3.Use the following Commands to generate JAR.
 ```
